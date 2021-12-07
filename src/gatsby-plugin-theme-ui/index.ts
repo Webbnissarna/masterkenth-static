@@ -6,7 +6,11 @@ const theme: Theme = {
     background: "#cff",
   },
   space: [0],
-
+  fonts: {
+    body: "Nunito, sans-serif",
+    heading: "Raleway, sans-serif",
+    monospace: "Fira Code, monospace",
+  },
   styles: {
     root: {
       margin: 0,

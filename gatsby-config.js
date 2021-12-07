@@ -8,8 +8,14 @@ module.exports = {
     title: "Master Kenth's Site",
   },
   plugins: [
-    "gatsby-plugin-theme-ui",
     "gatsby-plugin-image",
+    {
+      resolve: "gatsby-plugin-typography",
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    "gatsby-plugin-theme-ui",
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",
